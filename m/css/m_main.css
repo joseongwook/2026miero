@@ -1,0 +1,22 @@
+#product{
+  padding:50px 0px;
+  background:var(--bg_color03);
+}
+#product > article{
+  width:100%;
+  margin: 0;
+}
+#product > article > h2{text-indent: 10px;}
+#product > article > ul{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#product > article > ul > li{
+  width:370px;
+  padding:0px 3%;
+  text-align: center;
+}
+#product > article > ul > li img{
+  width:80%;
+}
